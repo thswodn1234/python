@@ -70,3 +70,16 @@ def operator(a, b):
 a, b, c, d = operator(7, 3)
 print(a, b, c, d)
 ```
+## 람다 표현식
+- 람다 표현식을 이용하면 함수를 간단하게 작성할 수 있습니다.
+  - 특정한 기능을 수행하는 함수를 한 줄에 작성할 수 있다는 점이 특징입니다.
+```python
+def add(a, b):
+    return a + b
+
+# 일반적인 add() 메서드 사용
+print(add(3, 7))
+
+# 람다 표현식으로 구현한 add()메서드
+print((lambda a, b: a + b)(3, 7))
+```
