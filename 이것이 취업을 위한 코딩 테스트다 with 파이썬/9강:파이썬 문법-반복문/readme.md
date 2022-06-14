@@ -46,3 +46,10 @@ while x > 5:
 for 변수 in 리스트:
     실행할 소스코드
 ```
+
+```python
+array = [9, 8, 7, 6, 5]
+
+for x in array:
+    print(x)
+```
