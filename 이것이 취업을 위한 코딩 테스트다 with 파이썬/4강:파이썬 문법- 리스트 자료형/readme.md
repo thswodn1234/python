@@ -106,3 +106,19 @@ print(array)
 - 만약 2차원 리스트를 초기화할 때 다음과 같이 작성하면 예기치 않은 결과가 나올 수 있습니다.
   - 잘못된 예시:array = [[0] * m] * n
   - 위 코드는 전체 리스트 안에 포함된 각 리스트가 모두 같은 객체로 인식됩니다.     
+```python
+# N X M 크기의 2차원 리스트 초기화
+n = 4
+m = 3
+array = [[0] * m for _ in range(n)] 
+print(array)
+
+# N X M 크기의 2차원 리스트 초기화 (잘못된 방법)
+n = 4
+m = 3
+array = [[0] * m] * n
+print(array)
+
+array[1][1]
+print(array)
+```
