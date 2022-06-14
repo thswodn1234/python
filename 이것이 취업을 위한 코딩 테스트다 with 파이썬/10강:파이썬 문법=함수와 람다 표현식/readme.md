@@ -83,3 +83,13 @@ print(add(3, 7))
 # 람다 표현식으로 구현한 add()메서드
 print((lambda a, b: a + b)(3, 7))
 ```
+### 람다 표현식 예시: 내장 함수에서 자주 사용되는 람다 함수
+```python
+array = [('홍길동', 50), ('이순신', 32), ('아무개', 74)]
+
+def my_key(x):
+    return x[1]
+
+print(sorted(array, key=my_key))
+print(sorted(array, key=lambda x: x[1]))
+```
