@@ -18,3 +18,18 @@ def 함수명(매개변수):
     실행할 소스코드
     return 반환 값
 ```
+## 더하기 함수 예시 1)
+- 더하기 함수 예시1)
+```python
+def add(a, b):
+    return a + b
+
+print(add(3, 7))
+```
+- 더하기 함수 예시2)
+```python
+def add(a, b):
+    print("함수의 결과:", a + b)
+
+add(3, 7)
+```
