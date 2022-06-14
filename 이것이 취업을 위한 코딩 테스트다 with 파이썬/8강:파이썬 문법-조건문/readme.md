@@ -103,3 +103,15 @@ else:
 
 print("프로그램을 종료합니다.")
 ```
+## 조건문의 간소화
+- 조건문에서 실행될 소스코드가 한 줄인 경우, 굳이 줄 바꿈을 하지 않고도 간략하게 표현할 수 있습니다.
+
+```python
+score = 85
+
+if score >= 80: result = "Success"
+else: result = "Falil"
+
+print(result)
+```
+- 조건부 표현식(Conditional Expression)은 if~else문을 한 줄에 작성할 수 있도록 해줍니다.
