@@ -14,3 +14,17 @@ while i <= 9:
     i += 1
 print(result)
 ```
+
+### 1부터 9까지 홀수의 합 구하기 예제(while문)
+```python
+i = 1
+result = 0
+
+# i가 9보다 작거나 같을 때 아래 코드를 반복적으로 실행
+while i <= 9:
+    if i % 2 == 1:
+        result += i
+    i += i
+    
+print(result)
+```
