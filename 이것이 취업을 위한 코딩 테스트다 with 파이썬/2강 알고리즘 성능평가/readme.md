@@ -1,6 +1,13 @@
 
 # 목차
 [1. 복잡도](#복잡도(Complexity))
+[2.빅오 표기법](#빅오-표기법(Big-O Notation))
+[3.시간 복잡도 계산해보기 1)](#시간-복잡도-계산해보기 1))
+[4.](#복잡도(Complexity))
+[5.](#복잡도(Complexity))
+[6.](#복잡도(Complexity))
+[7.](#복잡도(Complexity))
+[8.](#복잡도(Complexity))
 
 
 
