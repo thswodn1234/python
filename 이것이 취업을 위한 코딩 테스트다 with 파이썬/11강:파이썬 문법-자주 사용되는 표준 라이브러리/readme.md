@@ -36,3 +36,15 @@ array = [('홍길동', 35), ('이순신', 75), ('아무개', 50)]
 result = sorted(array, key=lambda x: x[1], reverse=True)
 print(result)
 ```
+## 순열과 조합
+- 순열: 서로 다른 n개에서 서로 다른 r개를 선택하여 일렬로 나열하는 것
+    - {"A", "B", "C"}에서 두개를 선택하여 나열하는 경우: 'ABC', 'ACB', 'BAC', 'BCA', 'CAB', 'CBA'
+
+```python
+from itertools import permutations
+
+data = ['A', 'B', 'C'] # 데이터 준비
+
+result = list(permutations(data, 3)) # 모든 순열 구하기
+print(result)
+```
