@@ -83,3 +83,20 @@ array = [i * i for i in range(1, 10)]
 
 print(array)
 ```
+### 코드 1: 리스트 컴프리헨션
+```python
+# 0부터 19까지의 수 중에서 홀수만 포함하는 리스트
+array = [i for i in range(20) if i % 2 == 1]
+
+print(array)
+```
+### 코드 2: 일반적인 코드
+```python
+#0부터 19까지의 수 중에서 홀수만 포함하는 리스트 
+array = []
+for i in range(20):
+    if i % 2 == 1:
+        array.append(i)
+
+print(array)
+```
