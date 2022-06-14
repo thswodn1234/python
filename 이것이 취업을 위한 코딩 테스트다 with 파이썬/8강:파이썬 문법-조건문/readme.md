@@ -114,4 +114,10 @@ else: result = "Falil"
 
 print(result)
 ```
-- 조건부 표현식(Conditional Expression)은 if~else문을 한 줄에 작성할 수 있도록 해줍니다.
+- 조건부 표현식(Conditional Expression)은 **if~else문을 한 줄에 작성**할 수 있도록 해줍니다.
+```python
+score = 85
+result = "Success" if score >= 80 else "Fail"
+
+print(result)
+```
