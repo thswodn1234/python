@@ -128,7 +128,7 @@ print(array)
 ```python
 summary = 0
 for i in range(1, 10):
-  summary += 1
+  summary += i
 print(summary)
 ```
 ### 코드 2: "Hello World"를 5번 출력하기
