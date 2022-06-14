@@ -121,3 +121,10 @@ for i in range(5):
     if scores[i] >= 80:
         print(i + 1,"번 학생은 합격입니다.")
 ```
+### 중첩된 반복문: 구구단 예제
+```python
+for i in range(2, 10):
+    for j in range(1, 10):
+        print(i, "X", j, "=", i * j)
+    print()
+```
