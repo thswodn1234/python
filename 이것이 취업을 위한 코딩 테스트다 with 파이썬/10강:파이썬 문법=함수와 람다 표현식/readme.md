@@ -93,3 +93,12 @@ def my_key(x):
 print(sorted(array, key=my_key))
 print(sorted(array, key=lambda x: x[1]))
 ```
+### 람다 표현식 예시: 여러 개의 리스트에 적용
+```python
+list1 = [1, 2, 3, 4, 5]
+list2 =[6, 7, 8, 9, 10]
+
+result = map(lambda a, b: a + b, list1, list2)
+
+print(list(result))
+```
