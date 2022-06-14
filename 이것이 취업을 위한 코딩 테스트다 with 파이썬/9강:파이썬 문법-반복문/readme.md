@@ -53,3 +53,16 @@ array = [9, 8, 7, 6, 5]
 for x in array:
     print(x)
 ```
+
+- for문에서 연속적인 값을 차례대로 순회할 때는 range()를 주로 사용합니다.
+    - 이때 range(시작 값, 끝 값 + 1) 형태로 사용합니다.
+    - 인자를 하나만 넣으면 자동으로 시작 값은 0이 됩니다.
+```python
+result = 0
+
+# i는 1부터 9까지의 모든 값을 순회
+for i in range(1,10):
+    result += i
+    
+print(result)
+```
