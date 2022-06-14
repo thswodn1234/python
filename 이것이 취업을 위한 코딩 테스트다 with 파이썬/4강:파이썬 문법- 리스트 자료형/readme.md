@@ -122,3 +122,17 @@ print(array)
 array[1][1] = 5
 print(array)
 ```
+## 언더바는 언제 사용하나요?
+- 파이썬에서는 반복을 수행하되 반복을 위한 변수의 값을 무시하고자 할 때 언더바(_)를 자주 사용합니다
+### 코드 1: 1부터 9까지의 자연수를 더하기
+```python
+summary = 0
+for i in range(1, 10):
+  summary += 1
+print(summary)
+```
+### 코드 2: "Hello World"를 5번 출력하기
+```python
+for _ in range(5):
+  print("Hello World")
+```
