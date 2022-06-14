@@ -89,3 +89,15 @@ for i in range(1, 10):
     
 print(result)    
 ```
+## 파이썬의 break 키워드
+- 반복문을 즉시 탈출하고자 할 때 break를 사용합니다.
+- 1부터 5까지의 정수를 차례대로 출력하고자 할 때 다음과 같이 작성할 수 있습니다.
+```python
+i = 1
+
+while True:
+    print("현재 i의 값:",i)
+    if i == 5:
+        break
+    i += 1
+```
