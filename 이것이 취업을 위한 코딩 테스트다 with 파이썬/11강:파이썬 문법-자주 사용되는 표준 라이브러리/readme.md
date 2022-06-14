@@ -58,3 +58,20 @@ data = ['A', 'B', 'C'] # 데이터 준비
 result = list(combinations(data, 2)) # 2개를 뽑는 모든 조합 구하기
 print(result)
 ```
+## 중복 순열과 중복 조합
+```python
+from itertools import product
+
+data = ['A', 'B', 'C'] # 데이터 준비
+
+result = list(product(data, repeat = 2)) # 2개를 뽑는 모든 순열 구하기 (중복허용)
+print(result)
+```
+```python
+from itertools import combinations_with_replacement
+
+data = ['A', 'B', 'C'] # 데이터 준비
+
+result = list(combinations_with_replacement(data, 2)) # 2개를 뽑는 모든 조합 구하기 (중복허용)
+print(result)
+```
