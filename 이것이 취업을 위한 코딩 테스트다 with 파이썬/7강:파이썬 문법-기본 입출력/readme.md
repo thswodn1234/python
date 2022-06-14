@@ -16,6 +16,7 @@
   - list(map(int,input().split()))
 - **예시**)공백을 기준으로 구분된 데이터의 개수가 많지 않다면, 단순히 다음과 같이 사용합니다.
   - a, b, c = map(int, input().split())  
+### 입력을 위한 전형적인 소스코드 1)
 ```python
 #데이터의 개수 입력 
 n = int(input()) # 5
@@ -24,4 +25,11 @@ data = list(map(int, input().split())) # 65 90 75 34 99
 
 data.sort(reverse=True)
 print(data)
+```
+### 입력을 위한 전형적인 소스코드2)
+```python
+# n, m , k를 공백을 기준으로 구분하여 입력 3 5 7
+n , m , k = map(int, input().split())
+
+print(n, m , k)
 ```
